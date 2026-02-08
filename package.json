@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fb9049f7c70a4a00fe660eae1e85e7acc6fe45619d4b97d5a78308471fc2f523
-size 533
+{
+  "name": "todo-app-phase-3",
+  "version": "1.0.0",
+  "description": "AI Todo Chatbot Application",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "axios": "^1.6.0"
+  }
+}
